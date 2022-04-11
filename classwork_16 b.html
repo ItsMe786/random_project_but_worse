@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Flex Box Review</title>
+    <style>
+        #container {
+            border: 3px solid black;
+            padding:40px;
+            width:300px;
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+        .items {
+            border: 1px solid black;
+            padding:5px;
+            width:80px;
+            height:80px;
+        }
+        #container2 {
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+    <div class="items" style="order: 1;">1</div>
+   <div class="items"style="order: 2;">2</div>
+   <div class="items"style="order: 4;">3</div>
+   <div class="items"style="order: 5;">4</div>
+   <div class="items"style="order: 6;">5</div>
+   <div class="items"style="order: 7;">6</div>
+   <div class="items"style="order: 8;">7</div>
+   <div class="items"style="order: 9;">8</div>
+   <div class="items"style="order: 3;">9</div>
+   </div>
+   
+   <div id="container2">
+       <div class="item2" style="order: 3;">pizza</div>
+       <div class="item2" style="order: 1;">cheese burger</div>
+       <div class="item2" style="order: 2;">taco</div>
+</div>
+</body>
+</html>
